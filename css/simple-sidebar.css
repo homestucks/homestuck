@@ -1,0 +1,111 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+ 
+body {
+  overflow-x: hidden;
+  background-color: #EFEFEF;
+}
+
+.navbar {
+  background-color: #535353;
+  }
+
+#menu-toggle {
+	background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	font-size:22px;
+  }
+  
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+/*Typography*/
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+p, h1, h2, h3, h4, h5, h6, h7 { 
+font-family: 'Fira Mono', monospace; 
+}
+
+.command {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: normal; 
+	line-height: 150%;
+}
+
+.command a {
+	text-decoration: underline;
+	text-decoration: bold;
+	}
+
+.commandline {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: normal; 
+	line-height: 150%;
+	text-decoration: underline;
+	
+	}
+	
+.commandline a, .command a {
+	color:#1b00ee;
+	}
+
+.commandline a.visited,  .command a.visited{
+	color:#551A8B;
+	}
+
+p {
+	font-size:18px;
+	font-weight: 700;
+	line-height: 22px;
+	}
+
+h1, h2, h3, h4, h5, h6, h7 {
+	font-weight: 900;
+}
